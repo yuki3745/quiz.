@@ -1,0 +1,80 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:"meiryo UI", "Hiragino Kaku Gothic ProN";
+  background-color:#eaf6fd;
+}
+
+a{
+  text-decoration:none;
+}
+
+.container{
+  width:100%;
+  max-width:1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+header{
+  background-color:#c5a3cb;
+  height:90px;
+  position:fixed;
+  width:100%;
+  z-index:10;
+  top:0;
+}
+
+header p{
+  color:white;
+  font-size:30px;
+}
+
+.main-question{
+    margin:120px 0 20px 0;
+    color:#3aacad;
+}
+
+.sub-question{
+  width:70%;
+  border:1px solid #82aaaa;
+  background-color:#b3d0d7;
+  text-align:center;
+  color:white;
+  padding:10px;
+  font-size:15px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+
+.choices{
+  display:flex;
+  justify-content: center;
+  width:70%;
+}
+
+.btn{
+text-align:center;
+margin-right:10px;
+background-color:#FFE4E1;
+border:1px solid #FFB6C1;
+box-shadow:1px 3px #FFB6C1;
+color:#3aacad;
+opacity:0.7;
+outline:none;
+padding:5px 10px;
+;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.btn:active{
+  box-shadow:none;
+  position:relative;
+  top:3px;
+}
